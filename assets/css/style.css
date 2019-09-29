@@ -215,4 +215,60 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+
+  @media screen and (max-width: 980px) {
+
+  }
   
+  @media screen and (max-width: 768px) {
+
+    .container {
+      width: 100%;
+      max-width: 768px;
+      margin: 0 auto;
+      clear: both;
+    }
+    body {
+      width:  100%;
+    }
+
+    header {
+      align-self: auto;
+    
+    }
+
+    #logo {
+      width: 100%;
+    }
+
+    nav {
+      width: 100%;
+    }
+
+    section {
+      margin-top: 30px;
+    }
+    
+    
+  }
+
+  @media screen and (max-width: 640px) {
+    body {
+      width:  100%;
+    }
+
+    header {
+      align-self: auto;
+      position: static;
+    }
+
+    #logo {
+      width: 100%;
+      text-align: center;
+    }
+
+    nav {
+      width: 100%;
+    }
+  
+  }
