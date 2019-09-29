@@ -268,18 +268,34 @@ body {
       width: 100%;
       text-align: center;
     }
-  
-     {
-      margin-right: 30px;
-     
 
-    }
 
     #masthead {
       position: static;
+      max-width: 500px;
     }
 
     #main-container {
-      padding-top: 20px;
+      padding-top: 1px;
+      max-width: 450px;
+    }
+
+    .auth-image {
+      width: 200px;
+      height: auto;
+      margin-top: 10px;
+      margin-right: 25px;
+    }
+
+    .work {
+      width:  390px;
+    }
+
+    .auth-image {
+      width: 390px;
+    }
+
+    #masthead {
+      max-width: 500px;
     }
   }
