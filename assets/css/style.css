@@ -222,10 +222,20 @@ body {
       max-width: 980px;
       margin: 0 auto;
       clear: both;
+      align-self: left;
     }
 
     #masthead {
       max-width: 980px;
+    }
+
+    #main-container {
+      padding-top: 1px;
+      max-width: 450px;
+    }
+
+    #main-section {
+      float: left;
     }
   }
   
@@ -236,6 +246,13 @@ body {
       max-width: 768px;
       margin: 0 auto;
       clear: both;
+    }
+
+    .auth-image {
+      width: 100px;
+      height: auto;
+      margin-top: 10px;
+      margin-right: 25px;
     }
     
     
